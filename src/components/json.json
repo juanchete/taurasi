@@ -1,0 +1,16 @@
+
+{
+    "diasEnSegundos" : "1",
+    "diasDespacho" : "5",
+    "almacenMaximoPara" : "30",
+    "almacenMaximoMotor" : "25",
+    "almacenMaximoRueda" : "35",
+    "cantidadInicialProdPara" : "2",
+    "cantidadInicialProdMotor" : "3",
+    "cantidadInicialProdRuedas" : "1",
+    "cantidadMaxProdPara" : "3",
+    "cantidadMaxProdMotor" : "8",
+    "cantidadMaxProdRuedas" : "4",
+    "inicialEnsam" : "1",
+    "maxEnsam" : "5"
+}

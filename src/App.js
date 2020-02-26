@@ -1,25 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/scss/argon-dashboard-react.scss';
 import './App.css';
+import Navbars from './components/Navbars';
+import Home from './components/Home';
+import Productos from './components/Productos';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<Router>
+
+<Navbars/>
+
+<Route path="/" exact component={Home}/>
+<Route path="/productos" exact component={Productos}/>
+
+
+</Router>
   );
 }
 
