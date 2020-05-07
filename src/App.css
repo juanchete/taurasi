@@ -1,6 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
+.image-fluid{
+  max-width: 100%;
+  height: 800%;
+}
 
+.espaciote{
+
+  margin-top: -1rem;
+
+}
+
+.morado{
+
+  background-color: #230608;
+
+}
+
+.logo_nav{
+
+  width: 8%;
+  margin-left: 5px;
+
+}
+
+
+a {
+  color: none;
+}
+a:hover {
+   color: none;
+}
   .navegar {
     color: rgba(255, 255, 255, 0.596);
   }
@@ -52,6 +82,20 @@
   margin-left: 5px;
   padding-left: 5px;
   padding-right: 5px;
+  color: white;
+}
+
+.letra_prod{
+  font-family: 'Cinzel', serif ;
+  color: white;
+  font-size: medium;
+
+}
+
+.letra_titulo{
+
+  font-family: 'Cinzel', serif ;
+  color: white;
 }
 
 .titulo{
@@ -79,16 +123,55 @@
 .tamano-foto-vino-banner{
 
   
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width:  100%;
 
 }
 
 .tamano-foto-bannerch{
 
+  margin-top: 11rem;
+  margin-bottom: 15rem;
+  height: 6rem;
+  width: 18rem;
+}
+
+.space-top{
+
+margin-top: 2rem;
+
+}
+
+.logo_nav_respon{
+
+
+  min-width: 80%;
+  min-height: 130%;
+
+}
+
+.tamano-foto-banner{
+  margin-top:8rem;
+  margin-bottom: 10rem;
+  height: 6rem;
+  width: 18rem;
+}
+
+
+
+.tamano-foto-falan{
+
   
-  height: 70%;
-  width: 70%;
+  height: 75%;
+  width: 110%;
+
+}
+
+.tamano-foto-aglia{
+
+  
+  height: 75%;
+  width: 110%;
 
 }
 
@@ -117,9 +200,9 @@
 }
 
 .gmail{
-  height: 87%;
+  height: 57%;
   width: 10%;
-  margin-left: 10%;
+ 
 }
 
 
@@ -145,7 +228,7 @@ filter: blur(4px);
 
   background-image: url(C:/Users/Juan/Desktop/taurasi/src/assets/img/theme/vinicola-del-sannio-productos.jpg);
   background-size: cover;
-  height: 54%;
+  height: 94%;
 
 }
 
@@ -195,10 +278,10 @@ body {
 /* RESPONSIVE */
 
 html {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
-@include media-breakpoint-up(sm) {
+/* @include all and (max-width: 576px) {
   html {
     font-size: 1.2rem;
     
@@ -212,8 +295,8 @@ html {
   .tamano-foto-vino-banner{
 
   
-    height: 0%;
-    width: 0%;
+    height: 30%;
+    width: 50%;
   
   }
   
@@ -225,16 +308,30 @@ html {
   
   }
 
+  .gmail{
+    height: 97%;
+    width: 10%;
+    margin-left: 10%;
+  }
+
 }
 
 @include media-breakpoint-up(md) {
   html {
     font-size: 1.4rem;
   }
+
+  .gmail{
+    height: 97%;
+    width: 10%;
+    margin-left: 10%;
+  }
+
 }
 
 @include media-breakpoint-up(lg) {
   html {
     font-size: 1.6rem;
   }
-}
+} */
+

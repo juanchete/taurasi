@@ -6,6 +6,7 @@ import './App.css';
 import Navbars from './components/Navbars';
 import Home from './components/Home';
 import Productos from './components/Productos';
+import Contactos from './components/Contactos';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -17,7 +18,7 @@ function App() {
 
 <Route path="/" exact component={Home}/>
 <Route path="/productos" exact component={Productos}/>
-
+<Route path="/contacto" exact component={Contactos}/>
 
 </Router>
   );

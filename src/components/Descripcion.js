@@ -19,39 +19,41 @@ class Descripcion extends Component {
     render() {
         return (
             
-                <div className='bg-secondary'>
-                {/* <h1 className="display-2 text-center" >Quienes Somos</h1> */}
+                <div className='bg-secondary' id="who">
+                {/* // <Container>
+                // <h1 className="letra titulo text-dark text-center" >Quienes Son? </h1>
+                //     <Row>
+                //         <br></br>
+                //         <Col className="text-center vertical-center">
+                //             <p className="text-dark letra">Bodega productora por excelencia de vinos únicos y exclusivos del sur de Italia.</p>
+                //         </Col>
+                //         <br/>
+                //     </Row>
+                // </Container> */}
+
+
                 <Container>
+                <br></br>
+                {/* <h1 className="letra titulo text-dark text-center" >¿Quienes Son? </h1> */}
+                <hr className='style18'></hr>
                     <Row>
+                    <br></br>
+                    
                         <Col className="text-center vertical-center">
-                            <span className="">loressiahdajsldjkasdiosajdioasjdioasjdoiad
-                            asdjdjaosidjasoidjsiaodjasdjasoidjsaid
-                            jdisajdosajdoiasjdioasjdoiasjdiosadjasdji
-                            oaidjaosdijsaoidjasiodjaiojd</span>
+
+
+                            <p className="letra text-dark">Nuestros vinos, la tierra del sannio es por excelencia excelencia, una de las áreas más fascinantes del panorama vinícola campano en donde se cultiva el 70% de la producción sannio de OP (origen protegida).
+<br></br><br></br>Trabajo y pasión, la Vinícola Del sannio nace en 1960 del proyecto admirable y apasionante del fundador Pasquale Pengue.</p>
                         </Col>
+                    
                         <br/>
-                        <Col className="vertical-center">
-                            <img src={logo} alt='Aglianico' className="tamano-foto-vino-banner " />
-                        </Col>
+                    
                     </Row>
+                    <br></br>
+                    <hr className='style18'></hr>
                 </Container>
 
 
-
-
-                {/* <div className="container">
-                    <div className="row ">
-                        <div className="col d-flex justify-content-center">
-                            <span className="texto text-center">
-                                Somos una impotadora de vinos asociada con
-                                Vinicola Del Sannio
-                        </span>
-                        </div>
-                        <div className="col">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Oikya_Front_Logo.png" alt='Aglianico' className="tamano-foto-vino-banner" />
-                        </div>
-                    </div>
-                </div> */}
                 </div>
             
         )

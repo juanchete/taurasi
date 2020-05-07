@@ -101,9 +101,9 @@ class ProductosHome extends Component {
                     </Row>
                     <br/>
                     <div className="container text-center">
-                    <Button  >
+                    <Button  className='letra text-dark'>
                         <Link to="/productos">
-                                Descubre!!
+                                Descubre
                         </Link>
                         </Button>
                     </div>
